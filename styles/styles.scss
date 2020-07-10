@@ -1,8 +1,18 @@
 @import "../styles/variables.scss";
 
-.top-header{
+.top-header {
   background-color: $dark-grey;
-  color:$white;
+  color: $white;
   padding: 0.5rem;
-  text-align: center
+  text-align: center;
+}
+
+.carousel-item {
+  height: 85vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
