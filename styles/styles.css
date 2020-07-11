@@ -11,4 +11,24 @@
   background: no-repeat center center scroll;
   background-size: cover;
 }
+
+.img-pagne-color {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 550px;
+}
+
+.img-nature {
+  height: 80vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.site-footer {
+  background-color: #33333a;
+  color: #fff;
+}
 /*# sourceMappingURL=styles.css.map */

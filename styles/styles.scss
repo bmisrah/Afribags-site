@@ -16,3 +16,26 @@
   -o-background-size: cover;
   background-size: cover;
 }
+
+.img-pagne-color {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 550px;
+}
+
+.img-nature {
+  height: 80vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.site-footer {
+  background-color: $dark-footer;
+  color:$white;
+}
