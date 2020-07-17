@@ -1,20 +1,21 @@
-@import "../styles/variables.scss";
+@import "variables.scss";
+@import "mixins.scss";
+
+body {
+  font-family: $primary-font;
+}
 
 .top-header {
   background-color: $dark-grey;
+  font-family: $secondary-font;
   color: $white;
   padding: 0.5rem;
   text-align: center;
 }
 
 .carousel-item {
-  height: 85vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  @include image-display;
+  height: $carousel-height;
 }
 
 .img-pagne-color {
@@ -25,17 +26,18 @@
 }
 
 .img-nature {
-  height: 80vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  @include image-display;
+  height: $img-nature-height;
   opacity: 0.8;
+}
+
+.img-teen {
+  @include image-display;
+  height: $carousel-height;
 }
 
 .site-footer {
   background-color: $dark-footer;
-  color:$white;
+  color: $white;
+  font-size:14px;
 }
