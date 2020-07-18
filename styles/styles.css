@@ -3,15 +3,14 @@ body {
 }
 
 .top-header {
-  background-color: #303030;
-  font-family: "Lobster", cursive;
+  background-color: #ff6008;
+  font-family: cursive;
   color: #fff;
   padding: 0.5rem;
   text-align: center;
 }
 
 .carousel-item {
-  min-height: 350px;
   background: no-repeat center center scroll;
   background-size: cover;
   height: 85vh;
@@ -24,8 +23,29 @@ body {
   width: 550px;
 }
 
+.img-technique {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 550px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.img-technique2 {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 550px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+  width: 400px;
+  height: 300px;
+}
+
 .img-nature {
-  min-height: 350px;
   background: no-repeat center center scroll;
   background-size: cover;
   height: 80vh;
@@ -33,10 +53,45 @@ body {
 }
 
 .img-teen {
-  min-height: 350px;
   background: no-repeat center center scroll;
   background-size: cover;
   height: 85vh;
+  color: #fff;
+  font-size: 3.375rem;
+}
+
+.row-content {
+  padding: 10px 0;
+  border-bottom: 1px groove;
+}
+
+.col-contact {
+  border-right: 1px ridge;
+}
+
+.contact-us {
+  color: #ff6008;
+}
+
+.filter {
+  padding: 5px 0;
+  border-bottom: 1px groove;
+}
+
+.reset {
+  color: #ff6008;
+}
+
+.form-button {
+  background-color: #ff6008;
+  border: #ff6008;
+  margin-right: 185px;
+}
+
+.quick-facts {
+  background-color: #d3d3d3;
+  height: 200px;
+  font-size: 0.75rem;
 }
 
 .site-footer {

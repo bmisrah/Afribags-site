@@ -2,6 +2,7 @@
 $dark-grey: #303030;
 $dark-footer: #33333a;
 $bright-orange: #ff6008;
+$light-grey: #d3d3d3;
 $white: #fff;
 
 // variants
@@ -11,9 +12,18 @@ $dark-grey: #303030;
 
 // typography
 $primary-font: "Montserrat", sans-serif;
-$secondary-font: "Lobster", cursive;
+$secondary-font: cursive;
 
 // font sizes
+$font-size-base: 16px;
+$font-size-title: 3.375rem; // 54px
+$font-size-header-large: 2.25rem; // 36px
+$font-size-header-medium: 2.125rem; // 34px
+$font-size-header-small: 1.75rem; // 28px
+$font-size-action: 1.25rem; // 20px
+$font-size-body: 1rem; // 16px
+$font-size-body-large: 1.5rem; // 24px
+$font-size-body-small: 0.75rem; // 12px //used
 
 // spacing
 $carousel-height: 85vh;
@@ -22,3 +32,5 @@ $img-nature-height: 80vh;
 // shadows
 
 // borders
+$border-groove: 1px groove;
+$border-ridge: 1px ridge;
